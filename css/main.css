@@ -1,0 +1,85 @@
+/* BODY */
+body {
+    background-color: grey;
+    /*
+        The 'background-color' property sets the background color of an element. The background of an element is the total size of that element, including padding and border(but not margin)
+
+        By setting 'background-color:grey' we changed the background color of our body to grey.
+    */
+
+    margin: 0;
+    /*
+        The 'margin' property sets the margin area on all four sides of an element. It is shorthand for 'margin-top', 'margin-right', 'margin-bottom', and 'margin-left'.
+
+        By setting 'margin:0' we remove the margin area surrounding our body which lets our websites body rest against the edge of the screen.
+    */
+}
+
+/* SITE WRAPPER */
+.wrapper {
+    margin: 0 auto;
+    /*
+        The 'margin' property sets the margin area on all four sides of an element. It is shorthand for 'margin-top', 'margin-right', 'margin-bottom', and 'margin-left'.
+
+        The 'auto' property horizontally centers our element within its container
+
+
+        By setting 'margin:0 auto;' to our wrapper we removed any margin area from the top of our wrapper and the auto lets the element be centered horizontally within its container. 
+        The element will then take up the specified width, and the remaining space will be split equally between the left and right margins. 
+    */
+
+    width: 80%;
+    /*
+        The 'width' property sets the width of an element.
+
+        By setting the width of our element to 80% the remaining 20% gets split evenly between our left and right side. In so our wrapper is takeing 80% of the body element then it centers itself using 'auto' and the remaining 20% of our body is split evenly on our left and right side.
+    */
+}
+
+/* HEADER AREA */
+.header {
+    background-color: lightgray;
+    padding: 30px;
+    /*
+        The 'padding' property is used to generate space around an elements content, inside any defined borders.
+
+        by setting 'padding:30px' our header element has a padding of 30px all around it. 
+    */
+}
+.header h1 {
+    color:  whitesmoke;
+    display: inline-block;
+    /*
+        the 'display' property sets whether an element is treated as a block on inline element.
+
+        by setting 'display:inline-block; the element is treated as inline level block container that can have height and width values given to it. 
+    */
+    background-color: gray;
+    font-size: 40px;
+    padding: 22px 50px;
+}
+
+/* MENU */
+.menu {
+    color: whitesmoke;
+    background-color: #A5A3A4;
+    font-size: 16px;
+}
+.menu ul {
+    margin:0;
+    padding: 0;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 68px;
+}
+
+/* MAIN BODY */
+.main {
+    background-color: whitesmoke;
+    width: 70%;
+}
+.main h1{
+    margin: 0;
+}
