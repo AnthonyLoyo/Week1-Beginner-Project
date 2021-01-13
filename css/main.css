@@ -39,7 +39,7 @@ body {
 /* HEADER AREA */
 .header {
     background-color: lightgray;
-    padding: 30px;
+    padding-left: 30px;
     /*
         The 'padding' property is used to generate space around an elements content, inside any defined borders.
 
@@ -72,14 +72,53 @@ body {
 .menu ul li{
     list-style: none;
     display: inline-block;
-    padding: 20px 68px;
+    /* padding: 20px 68px; */
+    padding: 30px;
 }
 
 /* MAIN BODY */
 .main {
     background-color: whitesmoke;
     width: 70%;
+    float: left;
+    /*
+        The 'float' property places and element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page, though still remaining part of the flow.
+
+        By setting 'float:left' the element must float on the left side of its containing block. In this case it floats to the side of our containing div
+    */
+    min-height: 600px;
 }
 .main h1{
     margin: 0;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.main p {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.sideBar {
+    background-color: whitesmoke;
+    float: left;
+    min-height: 600px;
+    width: 30%;
+}
+.sideBar h1{
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 25px;
+
+}
+.sideBar li {
+    font-size: 20px;
+    list-style: none;
+}
+.footer {
+    clear: left;
+    background-color: #A5A3A4;
+    padding: 6px 0;
+}
+.footer p{
+    padding-left: 30px;
 }
